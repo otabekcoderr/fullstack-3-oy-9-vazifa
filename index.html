@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Milliy Mahsulotlar</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="navbar">
+        <div class="nav-container">
+          <div class="nav-wrapper">
+            <!-- Logo -->
+            <a href="#" class="nav-logo">Milliy<span>Shop</span></a>
+
+            <ul class="nav-links">
+              <li><a href="#" class="active">Bosh sahifa</a></li>
+              <li><a href="#">Kiyimlar</a></li>
+              <li><a href="#">Ro‘zg‘or buyumlari</a></li>
+              <li><a href="#">Oziq-ovqat</a></li>
+            </ul>
+          </div>
+
+          <div class="nav-actions">
+            <div class="nav-search">
+              <img src="./image/search.svg" alt="" />
+              <input
+                class="search"
+                type="text"
+                placeholder="Mahsulot qidirish..."
+              />
+            </div>
+            <button class="cart-btn">
+              <h3>🛒 Savat</h3>
+            </button>
+            <div class="prod-counter hidden">
+              <span class="cart-count"></span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <h1 class="page-title">Milliy Mahsulotlar Do‘koni</h1>
+        <div class="products-grid" id="products-list"></div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
